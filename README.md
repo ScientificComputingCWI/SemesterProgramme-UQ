@@ -1,4 +1,4 @@
-# CWI semester programme 
+# CWI UQ semester programme 
 
 This is the repository for the CWI Research Semester Programme [Uncertainty Quantification for High-Dimensional Problems.](https://www.cwi.nl/en/events/cwi-research-semester-programs/research-semester-programs-in-2024/uncertainty-quantification-for-high-dimensional-problems/).
 
