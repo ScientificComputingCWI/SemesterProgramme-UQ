@@ -20,7 +20,7 @@ A quick-start guide on how to use Archer2 can be found here [2], with the full u
 
 NB: Archer2 charges per node, so a 4-core job running for an hour will cost 128 core hours (=1CU, where a CU is 1 node hour).   As such, an ill-formed batch script can be expensive, e.g., request 10 hours on multiple nodes and forget a carriage return on the srun command.
 
-The account code/budget to use in batch scripts is "ta171", how to enter this will be made clear in the lecture.
+The account code/budget to use in batch scripts is `ta171`, how to enter this will be made clear in the lecture.
 
 [1] https://safe.epcc.ed.ac.uk/main.jsp
 
