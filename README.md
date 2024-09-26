@@ -12,7 +12,7 @@ The lecture on Wednesday (October 9th) includes exercises on submitting ensemble
 
 It is strongly suggested that all course participants aquire a SAFE account and course project accounts in good time well before the 9th of October.
 
-The course project has been created, namely `ta171 - 241009 SEAVEA training day`,  and is ready for use until the 8th of November 2024. All users of this project must have an account on the SAFE, which is EPCC's web-based administration portal, wherein users can request access to projects on any of EPCC's services. To get an account on SAFE, please visit [1].  **You are required to use an institutional email address, e.g. not gmail.com, and also provide your public ssh key**.
+The course project has been created, namely `ta171 - 241009 SEAVEA training day`,  and is ready for use until the 8th of November 2024. All users of this project must have an account on the SAFE, which is EPCC's web-based administration portal, wherein users can request access to projects on any of EPCC's services. To get an account on SAFE, please visit [1].  **You are required to use an institutional email address, e.g. not gmail.com, and also provide your public ssh key**. Also, to make a SAFE account you will need to provide an "institute for reporting". Please select University College London.
 
 To join the course project, hover over the Projects button along the top banner, and click on 'Request access', then enter 'ta171' to locate our course project, then click Apply.
 
