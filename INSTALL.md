@@ -38,7 +38,7 @@ myenv/Scripts/activate.bat
 ```
 pip install easyvvuq
 pip install "numpy>=1.0,<2.0"
-pip install jupyterlab
+pip install jupyter-lab
 ```
 
 5) Run jupyterlab:
