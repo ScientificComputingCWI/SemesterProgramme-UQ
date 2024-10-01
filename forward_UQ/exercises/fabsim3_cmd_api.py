@@ -13,6 +13,7 @@ import os
 import sys
 import time
 import subprocess
+
 # from fabsim.base.fab import *
 
 # add_local_paths("FabUQCampaign")
@@ -23,7 +24,7 @@ def fabsim(command, arguments, machine = 'localhost'):
 
     Parameters
     ----------
-    - command (string): the FanSim3 command to execute
+    - command (string): the FabSim3 command to execute
     - arguments (string): a list of arguments, starting with the config ID,
       followed by keyword arguments "config,arg1=....,arg2=...."
     - machine (string): the name of the remote machine as indicated in
@@ -43,8 +44,10 @@ def fabsim(command, arguments, machine = 'localhost'):
         cmd = "fabsim {} {}:{}".format(machine, command, arguments)
         print('Executing', cmd)
         # os.system("fabsim {} {}:{}".format(machine, command, arguments))
-
         os.popen(cmd).read()
+
+def available_tasks():
+    fabsim("tasks", None, machine="-l")
 
 def fetch_results(machine='localhost'):
     """
@@ -341,7 +344,9 @@ def get_uq_samples(config, campaign_dir, number_of_samples, skip=0, machine = 'l
     for dir_i in dirs:
         run_id = int(dir_i.split('_')[-1])
         if run_id > number_of_samples:
-            local('rm -r %s/runs/Run_%d' % (campaign_dir, run_id))
+            # local('rm -r %s/runs/Run_%d' % (campaign_dir, run_id))
+            cmd = 'rm -r %s/runs/Run_%d' % (campaign_dir, run_id)
+            os.popen(cmd).read()
             print('Removing Run %d from %s/runs' % (run_id, campaign_dir))
 
 def clear_results(machine, name_results_dir):
