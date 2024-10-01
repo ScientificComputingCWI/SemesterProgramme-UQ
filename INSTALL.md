@@ -48,3 +48,32 @@ myenv/bin/jupyterlab
 ```
 
 6) Run the `forward_UQ/exercises/EasyVVUQ_install_check.ipynb` notebook.
+
+### Installing FabSim3 with FabUQCampaign
+
+For detailed FabSim3 installation instructions, click [here](https://fabsim3.readthedocs.io/en/latest/installation/). Briefly, the installation entails the following steps, assuming you will install FabSim3 in your home directory:
+
+```
+pip3 install ruamel.yaml rich
+cd
+git clone https://github.com/djgroen/FabSim3.git
+cd FabSim3
+python3 configure_fabsim.py
+```
+
+At this point you will see some instructions on adding FabSim3 to your environment variables.
+
+Finally, you can check if the install was successfull using the `FabDummy` plugin:
+
+```
+fabsim localhost install_plugin:FabDummy
+fabsim localhost dummy:dummy_test
+```
+
+which should execute without error. Similarly, you can install the `FabUQCampaign` [plugin](https://github.com/wedeling/FabUQCampaign) via
+
+```
+fabsim localhost install_plugin:FabUQCampaign
+```
+
+This will install the plugin in `FabSim3/plugins`.
