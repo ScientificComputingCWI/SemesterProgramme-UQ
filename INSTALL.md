@@ -47,3 +47,4 @@ pip install jupyterlab
 myenv/bin/jupyterlab
 ```
 
+6) Run the `forward_UQ/exercises/EasyVVUQ_install_check.ipynb` notebook.
