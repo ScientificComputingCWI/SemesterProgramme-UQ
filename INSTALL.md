@@ -27,10 +27,10 @@ python -m venv myenv
 source myenv/bin/activate
 ```
 
-3) activate the environment (on Windows), run the `activate.bat` file in:
+3) activate the environment (on Windows), run the `activate` file in:
 
 ```
-myenv/Scripts/activate.bat
+myenv/Scripts/activate
 ```
 
 4) Install EasyVVUQ, Numpy (< 2.0), and jupyterlab in `venv`
