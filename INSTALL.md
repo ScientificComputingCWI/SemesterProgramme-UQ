@@ -33,7 +33,7 @@ source myenv/bin/activate
 myenv/Scripts/activate
 ```
 
-4) Install EasyVVUQ, Numpy (< 2.0), and jupyterlab in `venv`
+4) Install EasyVVUQ, Numpy (< 2.0), and jupyterlab in `venv` (Linux)
 
 ```
 pip install easyvvuq
@@ -41,10 +41,24 @@ pip install "numpy>=1.0,<2.0"
 pip install jupyter-lab
 ```
 
-5) Run jupyterlab:
+4) Install EasyVVUQ, Numpy (< 2.0), and jupyterlab in `venv` (Windows)
+
+```
+pip install easyvvuq
+pip install "numpy>=1.0,<2.0"
+pip install jupyter lab
+```
+
+5) Run jupyterlab (Linux):
 
 ```
 myenv/bin/jupyterlab
+```
+
+5) Run jupyterlab (Windows):
+
+```
+jupyter lab
 ```
 
 6) Run the `forward_UQ/exercises/EasyVVUQ_install_check.ipynb` notebook.
