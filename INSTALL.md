@@ -18,7 +18,7 @@ EasyVVUQ depends upon the chaospy library, which is currently undergoing work to
 
 ```
 cd  ~/
-python -m venv myenv
+python3 -m venv myenv
 ```
 
 3) activate the environment (on Linux):
