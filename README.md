@@ -6,6 +6,8 @@ This is the repository for the CWI Research Semester Programme [Uncertainty Quan
 
 Event page: https://www.cwi.nl/en/events/cwi-research-semester-programs/uncertainty-quantification-for-high-dimensional-problems-autumn-school/
 
+The slides from Derek Groen (Wednesday) are available here: https://docs.google.com/presentation/d/1o-9qoy1_znTlxuMLCfeJq52uO_b3N14eQa5iMlmM4FU/edit?usp=drive_link
+
 ## Getting access to Archer2
 
 The lecture on Wednesday (October 9th) includes exercises on submitting ensemble runs on the [ARCHER2 supercomputer](https://www.archer2.ac.uk/), provided by UKRI, EPCC, HPE Cray and the University of Edinburgh. These resources are made available through the [SEAVEA project](https://www.seavea-project.org/) (Software Environment for Actionable & VVUQ-evaluated Exascale Applications).
