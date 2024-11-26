@@ -36,4 +36,4 @@ The account code/budget to use in batch scripts is `ta171`, how to enter this wi
 
 # Workshop (11-15 Nov)
 
-The book of abstract and slides are available in the `workshop` directory.
+The book of abstract and slides are available in the `Workshop` directory.
